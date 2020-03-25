@@ -6,6 +6,7 @@
     <span class="qtde" align="righit"><b><?php echo count($produtos); ?></b> registros encontrados</span>
     <div class="tabela">
         <?php
+        require "vendor/autoload.php";
         
         use Dompdf\Dompdf;
         

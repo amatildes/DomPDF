@@ -7,6 +7,7 @@ class HomeController extends Controller
 {
     public function index()
     {
-        $this->load('template');
+        $dados['view'] = "produto/v_home";
+        $this->load('template', $dados);
     }
 }
