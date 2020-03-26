@@ -63,7 +63,7 @@
 //        var_dump($dompdf->output());
 //        exit();
         //ENVIAR PARA O BROWSER
-        $dompdf->stream('relatorio.pdf');
+        $dompdf->stream('relatorio.pdf', ['Attachment' => false]);
         
 //        echo $html;
         ?>
